@@ -1,0 +1,34 @@
+#gallery {
+  padding:0; 
+  margin:0; 
+  list-style-type:none; 
+  overflow:hidden; 
+  width:625px; 
+  height:320px; 
+  border:1px solid #888; 
+  background:#fff url(windows/win_back.gif);
+  }
+#gallery li {
+  float:left;
+  }
+#gallery li a {
+  display:block; 
+  height:320px;
+  width:60px; 
+  float:left; 
+  text-decoration:none; 
+  border-bottom:1px solid #fff; 
+  cursor:default;
+  }
+#gallery li a img {
+  width:60px; 
+  height:320px; 
+  border:0;
+  }
+#gallery li a:hover {
+  background:#eee; 
+  width:300px;
+  }
+#gallery li a:hover img {
+  width:300px;
+  }
